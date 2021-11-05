@@ -29,6 +29,6 @@ public class AppLesson5 {
          6) В консоль выводится время работы: System.out.println(System.currentTimeMillis() - a).
          */
         System.currentTimeMillis();
-        System.out.println(System.currentTimeMillis() - a);
+        System.out.println("One thread time: " + (System.currentTimeMillis() - a) + " m.s.");
     }
 }
