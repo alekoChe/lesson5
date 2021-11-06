@@ -1,6 +1,6 @@
 public class AppLesson5 {
 
-    static final int SIZE = 100_000_000;
+    static final int SIZE = 10_000_000;
     static final int HALF = SIZE / 2;
     float[] arr = new float[SIZE];
 
@@ -33,7 +33,7 @@ public class AppLesson5 {
         System.out.println("One thread time: " + (System.currentTimeMillis() - a) + " m.s.");
     }
     public static void secondMethod(float[] arr) {
-       
+
          for (int i = 0; i < SIZE; i++) {
             arr[i] = 1.0f;
         }
