@@ -1,5 +1,5 @@
 public class AppLesson5 {
-
+    // попытка сделать пулл реквест
     static final int SIZE = 10_000_000;
     static final int HALF = SIZE / 2;
     float[] arr = new float[SIZE];
